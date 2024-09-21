@@ -202,6 +202,10 @@ include buildsystem/Makefile.comp.gcc
 include buildsystem/Makefile.path.bwforcluster
 endif
 
+ifeq ($(SYSTYPE),"camber")
+include buildsystem/Makefile.comp.camber
+include buildsystem/Makefile.path.camber
+endif
 
 ifndef LINKER
 LINKER = $(CPP)
