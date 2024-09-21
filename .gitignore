@@ -55,7 +55,6 @@ processes_*.txt
 
 #Config files
 /Config.sh
-/Makefile.systype
 /param.txt
 /parameter.txt
 /Run1.tex
